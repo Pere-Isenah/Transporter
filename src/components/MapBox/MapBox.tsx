@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Mapbox() {
+function MapBox() {
   return (
     <>
-    <div className='grid-span-2'>
+    <div className="bg-logo-brown">
         <h2>Map2</h2>
     </div>
     </>
   )
 }
 
-export default Mapbox;
+export default MapBox;
