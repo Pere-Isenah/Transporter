@@ -3,7 +3,8 @@ import { AddressAutofill } from '@mapbox/search-js-react';
 
 
 const AutoCompleteAddress = () => {
-  const MAP_KEY = import.meta.env.MAP_BOX_TOKEN
+  const MAP_KEY = import.meta.env.VITE_MAP_BOX_TOKEN_KEY
+  console.log(MAP_KEY);
   return (
     <>
       <div className=' w-full py-3 px-2'>
