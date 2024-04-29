@@ -7,3 +7,9 @@ body {
   background-color: #1A2E49;
   color: white;
 }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
