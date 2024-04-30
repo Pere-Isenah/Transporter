@@ -1,7 +1,7 @@
 "use client"
 
 import Booking from '@/components/Booking/Booking'
-import MapboxMap from '@/components/Map/MapBoxMap'
+import MapBox from '@/components/MapBox/MapBox'
 
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className='md:col-span-2
         '>
-          <MapboxMap/>
+          <MapBox/>
         </div>
      </div>
     
