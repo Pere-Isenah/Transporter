@@ -1,13 +1,14 @@
 import React from 'react'
-import { UserButton } from "@clerk/clerk-react";
+import { UserButton } from "@clerk/nextjs";
 import Logo from "../assets/Logo.png"
+import Image from "next/image"
 
 function NavBar() {
   return (
     <>
     <div className="flex gap-6 justify-between px-5 py-3 border-b-[1px] shadow-sm items-center ml-0 pl-0 pb-3 border-logo-cyan shadow-logo-cyan ">
       <div className="w-26 h-12 ">
-        <img src={Logo} alt='logo' className="object-fill ml-0 pl-0 md:object-fit w-26 h-14"/>
+        <Image src='/Logo.png' alt='logo' width={200} height={65} className="object-fill ml-0 pl-0 md:object-fit w-26 h-14"/>
       </div>
   
       <div className="hidden md:flex">
